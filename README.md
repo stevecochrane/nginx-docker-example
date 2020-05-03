@@ -9,3 +9,5 @@ Here's how to build and run the Docker container:
 docker build -t stevecochrane/nginx-docker-example .
 docker run -d -p 80:80 stevecochrane/nginx-docker-example
 ```
+
+Now you should be able to go to `http://localhost:80` in your browser to see a 'Hello World' page.
