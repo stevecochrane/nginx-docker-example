@@ -1,4 +1,4 @@
-# nginx-docker-example
+# nginx-docker-examples
 
 Here I'll be learning about Nginx by trying a bunch of its features, and following along with
 [Nginx: From Beginner to Pro](https://www.apress.com/gp/book/9781484216576) by Rahul Soni.
