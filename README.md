@@ -12,7 +12,8 @@ docker run -d -p 80:80 -p 443:443 stevecochrane/nginx-docker-example
 
 Now you should be able to go to `http://localhost` in your browser to see a 'Hello World' page.
 Nginx will redirect you to HTTPS automatically (which may cause issues if you don't have your
-browser configured to accept self-signed certificates on localhost).
+browser configured to accept self-signed certificates on localhost). This also requires having
+a self-signed certificate in the `ssl/` directory, which is not included in the repo.
 
 There is also a very simple load balancer, though it requires a couple of other servers running
 on local IPs to run properly. Here's how to get that running in Docker:
